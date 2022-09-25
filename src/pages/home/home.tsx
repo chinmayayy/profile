@@ -2,14 +2,15 @@ import React from 'react';
 import './home.css';
 
 const home = () => {
+    
     return (
         <div className="home">
 
             <div className="text">
 
-                <p id="title">Hey! I'm </p>
-                <p id="name">CHINMAY</p>
-                <p> Machine Learning Developer & Programmer  <br /> </p>
+                <p className="title">Hey! I'm </p> 
+                <p className="name">CHINMAY</p>
+                <p> Computer Science Graduate Student & Programmer  <br /> </p>
                 <p> This is my corner of the forest :)  </p>
 
                 <div className="socials">
@@ -45,6 +46,7 @@ const home = () => {
                     <hr></hr>
 
                 </div>
+
             </div>
 
         </div>

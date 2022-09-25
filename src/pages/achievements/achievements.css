@@ -3,15 +3,13 @@ ul {
     padding: 0;
 }
 
-.col-grid{
+.row-grid{
     display: grid;
     grid-template-rows: auto auto;
     width: 100%;
-    margin-top: 100px;
 }
 
 .achievements {
-    margin-top: 150px;
     text-align: center;
 }
 
@@ -21,7 +19,7 @@ ul {
 }
 
 .row{
-    display: block;
+    display: grid;
     margin: 0 auto;
 }
 

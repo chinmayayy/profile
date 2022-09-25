@@ -3,25 +3,18 @@ ul {
     padding: 0;
 }
 
-.col-grid{
+.row-grid{
     display: grid;
     grid-template-rows: auto auto;
     width: 100%;
-    margin-top: 100px;
 }
 
-.achievements {
-    margin-top: 150px;
-    text-align: center;
-}
-
-.communities {
-    margin-top: 150px;
+.projects {
     text-align: center;
 }
 
 .row{
-    display: block;
+    display: grid;
     margin: 0 auto;
 }
 
@@ -32,11 +25,11 @@ ul {
 .card{
     background-color: #E4C3C3;
     width: 38vw;
+    box-shadow: .3rem .3rem .5rem rgb(207, 205, 205), -.2rem -.2rem .5rem rgb(241, 234, 234);
     padding: 20px 2vw 16px 3vw;
     margin: 8px 12px;
     border-radius: 25px;
 }
-
 
 .card_title{
     font-weight: 500;

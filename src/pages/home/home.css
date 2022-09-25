@@ -1,16 +1,20 @@
 .home {
     width: 100%;
     align-items: center;
-
+    background-position: 'center';
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+    width: '100vw';
+    height: '100vh'
   }
 
-#title{
+.title{
     margin-top: 130px;
     color:#C39E9E;
     font-size: 20px;
 }
 
-#name{
+.name{
     font-size: 5vw;
     font-weight: 800;
     color: #C39E9E;
