@@ -16,7 +16,10 @@
     "@types/react-dom": "^18.0.6",
     "boxicons": "^2.1.4",
     "react": "^18.2.0",
+    "homepage": "https://chinmayayy.github.io/portfolio",
     "react-dom": "^18.2.0",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.1",
     "react-scroll-button": "^2.0.0",
@@ -26,13 +29,15 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "node --version"
   },
   "eslintConfig": {
     "extends": [
